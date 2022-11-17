@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href ="">
+    </head>
+    <%- include('header.ejs') %>
+    <body>
+        <div style="padding-left:50px;margin: 0 auto;color: black;background-color: transparent; width: 60%;">
+        <br><br>
+            You have a new Inquiry from website <br><br>	
+                Name : <%= name %> <br>
+                Email ID : <%= email %> <br>
+                Interested In : <%= type %> <br>
+                Mobile No : <%= mobile %> <br>
+                Country : <%= country %> <br>
+                Inquiry : <%= details %> 
+        </div>
+        <br><br>
+        <script src="" async defer></script>
+    </body>
+    <%- include('footer.ejs') %>    
+</html>

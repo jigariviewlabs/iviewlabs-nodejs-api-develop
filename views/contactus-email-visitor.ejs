@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href ="">
+    </head>
+    <%- include('header.ejs') %>
+    <body>
+        <div style="padding-left:50px;margin: 0 auto;color: black;background-color: transparent; width: 60%;">
+            <br><br>
+            <b>Hello <%= name %></b>,<br><br>
+            Thank you for showing interest in us. Our Team will reach you soon. <br>
+            You can also schedule a prior meeting at <a href='mailto:<%= process.env.SALES_EMAIL%>'><b>'<%= process.env.SALES_EMAIL%>'</b></a>.<br>
+            Thanks for your time.<br>
+            Have a nice day! <br><br>
+            <b>Best Regards</b>,<br>
+            iView Labs Pvt. Ltd.<br>
+            <a style='color:#bb2428' href = 'mailto:<%= process.env.INFO_EMAIL %>'><b><%= process.env.INFO_EMAIL %></a> | <a style='color:#bb2428' href='https://iviewlabs.com/'><b>www.iviewlabs.com</b></a>
+        </div><br><br>
+        <script src="" async defer></script>
+    </body>
+    <%- include('footer.ejs') %>
+</html>

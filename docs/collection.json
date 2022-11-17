@@ -1,0 +1,1003 @@
+{
+	"info": {
+		"_postman_id": "fd6a5cc2-a2e3-4afc-b841-4b847370d4b9",
+		"name": "iViewAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "inquiry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Shivam",
+							"contentType": "application/json",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "shivrajviru@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "Development",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "9665896325",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "India (भारत)",
+							"type": "text"
+						},
+						{
+							"key": "details",
+							"value": "Testing API",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/contactus/inquiry",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"contactus",
+						"inquiry"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "inquiry-example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Shivam",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "shivrajviru@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "Development",
+									"type": "text"
+								},
+								{
+									"key": "mobile",
+									"value": "9665896325",
+									"type": "text"
+								},
+								{
+									"key": "country",
+									"value": "India (भारत)",
+									"type": "text"
+								},
+								{
+									"key": "details",
+									"value": "Testing API",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/contactus/inquiry",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"contactus",
+								"inquiry"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "21"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"15-aUdJoEnava7tA6JNoRGsIdJWhh4\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Jan 2022 06:36:53 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\"success\":\"success\"}"
+				}
+			]
+		},
+		{
+			"name": "hireourresource",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "ShivRaj",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "shivrajviru@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "contact",
+							"value": "9885478965",
+							"type": "text"
+						},
+						{
+							"key": "details",
+							"value": "Need of MD Urgently!!",
+							"type": "text"
+						},
+						{
+							"key": "resource",
+							"value": "Mobile Developer",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "India",
+							"type": "text"
+						},
+						{
+							"key": "model",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/hiredeveloper/hireourresource",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"hiredeveloper",
+						"hireourresource"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HireDeveloper-example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "ShivRaj",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "shivrajviru@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "contact",
+									"value": "9885478965",
+									"type": "text"
+								},
+								{
+									"key": "details",
+									"value": "Need of MD Urgently!!",
+									"type": "text"
+								},
+								{
+									"key": "resource",
+									"value": "Mobile Developer",
+									"type": "text"
+								},
+								{
+									"key": "country",
+									"value": "India",
+									"type": "text"
+								},
+								{
+									"key": "model",
+									"value": "123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/hiredeveloper/hireourresource",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hiredeveloper",
+								"hireourresource"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "21"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"15-aUdJoEnava7tA6JNoRGsIdJWhh4\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Jan 2022 06:37:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\"success\":\"success\"}"
+				}
+			]
+		},
+		{
+			"name": "modalcontactus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "shivrajdemo@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "casestudy",
+							"value": "TeamsTalk",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "+91 9885478965",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "India",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/contact/modalcontactus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"contact",
+						"modalcontactus"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "modalcontactus-example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "shivrajdemo@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "casestudy",
+									"value": "TeamsTalk",
+									"type": "text"
+								},
+								{
+									"key": "mobile",
+									"value": "+91 9885478965",
+									"type": "text"
+								},
+								{
+									"key": "country",
+									"value": "India",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/contact/modalcontactus",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"contact",
+								"modalcontactus"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "21"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"15-aUdJoEnava7tA6JNoRGsIdJWhh4\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Jan 2022 06:17:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\"success\":\"success\"}"
+				}
+			]
+		},
+		{
+			"name": "openingapplication",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "test",
+							"type": "default"
+						},
+						{
+							"key": "email",
+							"value": "test@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "mobile",
+							"value": "9665896589",
+							"type": "default"
+						},
+						{
+							"key": "country",
+							"value": "India (भारत)",
+							"type": "default"
+						},
+						{
+							"key": "title",
+							"value": "Technical Lead",
+							"type": "default"
+						},
+						{
+							"key": "titleid",
+							"value": "111",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/contact/openingapplication",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"contact",
+						"openingapplication"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "openingapplication-example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "test",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "test@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "mobile",
+									"value": "9665896589",
+									"type": "default"
+								},
+								{
+									"key": "country",
+									"value": "India (भारत)",
+									"type": "default"
+								},
+								{
+									"key": "title",
+									"value": "Technical Lead",
+									"type": "default"
+								},
+								{
+									"key": "titleid",
+									"value": "111",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/contact/openingapplication",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"contact",
+								"openingapplication"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5-Y5zGhGAN6KJBifYGZ/xqHBetv9o\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Jan 2022 06:25:09 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "\"686\""
+				}
+			]
+		},
+		{
+			"name": "sendopeningapplication",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "test",
+							"type": "default"
+						},
+						{
+							"key": "email",
+							"value": "test@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "mobile",
+							"value": "9663254125",
+							"type": "default"
+						},
+						{
+							"key": "country",
+							"value": "India (भारत)",
+							"type": "default"
+						},
+						{
+							"key": "titleid",
+							"value": "111",
+							"type": "default"
+						},
+						{
+							"key": "aid",
+							"value": "685",
+							"type": "default"
+						},
+						{
+							"key": "file",
+							"value": "Fleet Management System (1).pdf",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/contact/sendopeningapplicationmail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"contact",
+						"sendopeningapplicationmail"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "sendopeningapplication-example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "test",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "test@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "mobile",
+									"value": "9663254125",
+									"type": "default"
+								},
+								{
+									"key": "country",
+									"value": "India (भारत)",
+									"type": "default"
+								},
+								{
+									"key": "titleid",
+									"value": "111",
+									"type": "default"
+								},
+								{
+									"key": "aid",
+									"value": "685",
+									"type": "default"
+								},
+								{
+									"key": "file",
+									"value": "Fleet Management System (1).pdf",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/contact/sendopeningapplicationmail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"contact",
+								"sendopeningapplicationmail"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Jan 2022 06:39:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "currentopening",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/career/currentopening",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"career",
+						"currentopening"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "currentopening-example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/career/currentopening",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"career",
+								"currentopening"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "10012"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"271c-y6IKArLlOBw/hbU9YLZQ+1C4BKU\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Jan 2022 06:19:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": false,\n    \"message\": \"Success\",\n    \"data\": [\n        {\n            \"oid\": 110,\n            \"name\": \"Business Development\",\n            \"eligibility\": \"B.E Comp/B.E IT/MBA\",\n            \"experience\": \"1-3 Yrs Of Experience in BDE\",\n            \"jobdescription\": \"The role of a Business Development Executive is to assist the organizations sales and growth efforts by contributing to new customer acquisition. He/she should be able to provide ideas to attract new clients and keep senior management updated about marketplace and competitor activity. <br/><b>The primary role and responsibilities of a Business Development Executive include:</b><br/><br/> <ul><li>Build contacts with potential clients to create new business opportunities.</li><li> Keep prospective client database updated.</li><li> Make cold calls for new business leads.</li><li> Support in writing new business proposals.</li><li> Maintain Knowledge of all product and service offerings of the company.</li><li>Arrange meetings for senior management with prospective clients.</li><li>Follow Company guidelines and procedure for acquisition of customer, submission of tenders etc.</li></ul><b>Competencies & Skills Required</b><br/><ul><li>Must possess strong customer service skill.</li><li> Excellent written & verbel communication.</li><li> Must have good negotiation skills.</li><li>Must be able to create good presentations.</li><li>Must have excellent interpersonal skills.</li><li>Must be detail oriented and an active listener.</li><li>Ability to work under pressure. </li></ul>\",\n            \"isactive\": 1,\n            \"createdon\": \"2021-02-22T06:48:25.000Z\",\n            \"modifiedon\": \"2021-02-22T06:48:25.000Z\"\n        },\n        {\n            \"oid\": 111,\n            \"name\": \"Technical Lead\",\n            \"eligibility\": \"B.E Comp/B.E IT/MSCIT/MTech\",\n            \"experience\": \"5+ Yrs Of Experience in Tech Lead\",\n            \"jobdescription\": \"Tech Lead will be part of an agile development team, building and working on product development projects for clients with Full Stack Developers in the team. He/She will provide technical team leadership to ensure proper code delivery, removal of roadblocks for developers and also reduce technical debt of products. <br/><br/> <ul><li> Guide team development efforts towards successful project delivery.</li> <li> Provide technical leadership to teammates through coaching and mentorship.</li><li> Maintain high standards of software quality within the team by establishing good practices and habits.</li><li> Identify and encourage areas for growth and improvement within the team.</li><li> Collaborate with other remote software developers, gig workers, business analysts and software architects to plan, design, develop, test, and maintain web -and desktop-based business applications build on Microsoft Technologies.</li><li>Assits in the collection and technical documentation of code and project requirements.</li><li>Design, develop and unit test applications in accordance with established standards.</li><li>Participate in peer-reviews of solution designs and related code.</li><li>Prepare reports, manuals and other documentation on the status, operation and maintenance of software.</li><li>Package and support deployment of releases.</li><li>Develop, refine and tune integrations between applications.</li><li>Analyze and resolve technical and application problems.</li><li>Assess opportunities for application and process improvement and prepare documentation of rationale to share with team members and other affected parties.</li><li>Adhere to high-quality development principles while delivering solution on-time and on-budget.</li></ul><br/><b>Desired Skills & Experience:</b><ul><li>Minimum requirements 5+ year's experience as a Software Engineer.</li><li>Must have had experience in building technical products.</li><li>Must have been a Full Stack Developer.</li><li>Curious to learn new technologies.</li><li>Experience with multi-threading and concurrency.</li><li>Experience with debugging, performance profiling and optimization comprehensive.</li><li>Understanding of object-oriented and service-oriented application development techniques and theories internally motivated, able to work proficiently both independently and in a team environment.</li><li>Strong communication skills with both internal team members and external business stackholders.</li><li>Strong initiative to find ways to improve solutions, systems, and processes.</li></ul>    \",\n            \"isactive\": 1,\n            \"createdon\": \"2021-02-22T06:48:45.000Z\",\n            \"modifiedon\": \"2021-02-22T06:48:45.000Z\"\n        },\n        {\n            \"oid\": 112,\n            \"name\": \"Full Stack Developer\",\n            \"eligibility\": \"B.E Comp/B.E IT/MSCIT/MCA/MTech\",\n            \"experience\": \"2-4 Yrs Of Experience in Full Stack Developer\",\n            \"jobdescription\": \"We are looking for Meanstack developer, who maintain quality and ensure responsiveness of applications build tools in frontend like Grunt, Gulp and Browser are backend like Crud.<br/><br/><ul><li>Design overall architecture of the web application.</li><li>Maintain quality and ensure responsiveness of applications.</li><li>Collaborate with the rest of the engineering team to design and launch new features.</li><li>Maintain code integrity and organization.</li><li>Experience working with graphic designers and converting designs to visual elements.</li><li>Understanding and implementation of security and data protection.</li><li>Development experience for  both mobile & desktop.</li><li>Understanding of server-side languages.</li><li>Experience with cloud message APIs & usage of push notifications.</li><li>Deploy applications in the cloud or an on-premise infrastructure.</li><li>Experience with unit testing frameworks like NUnit, JUnit etc.</li><li>Knowledge of the code versioning tools.</li><li>Knowledge in agile practices is preferrable.</li><li>Familiarity in data structures, algorithms and system design.</li><li>Database administration and management of a hosting environment.</li><li>Ensure timely and quality release of the product in collaboration with other team members.</li></ul></br><b>Front-End:</b><br/><ul><li>Web fundamentals like HTML, JavaScript & CSS.</li><li>JavaScript frameworks like AngularJS, React etc.</li><li>Build tools like: Grunt, Gulp & Browser.</li><li>Front-End (CSS) frameworks like foundation of Bootstrap.</li><li>Knowledge on JQuery & AJAX would be an added advantages.</li></ul><br/><b>Back-End:</b><ul><li>CRUD (Create, Read, Update & Delete).</li><li>RESTful services.</li><li>Database technologies like MySQL, SQLite, Oracle, PostgreSQL, and MongoDB.</li><li>Web server technologies like Apache, Nginx, NodeJs, etc.</li><li>Frameworks related to their server-side language of choice like: ExpressJS etc.</li><ul>\",\n            \"isactive\": 1,\n            \"createdon\": \"2021-02-22T11:27:55.000Z\",\n            \"modifiedon\": \"2021-02-22T11:27:55.000Z\"\n        },\n        {\n            \"oid\": 113,\n            \"name\": \"NodeJS Developer\",\n            \"eligibility\": \"BTech/MTech/MCA/MSCIT\",\n            \"experience\": \"2-4 Yrs Of Experience in NodeJS Developer\",\n            \"jobdescription\": \"We are lookinf for a Back-End Developer for development of all server-side logic, definition and maintenance of the central database, and ensuring high performance and responsiveness to requests from the front-end. A basic understanding of front-end technologies is therefore necessary as well.<br/></br><b>Responsibilities:</b><ul><li>Creating Restful APIs.</li><li>Building reusable code and libraries for future use.</li><li>Optimization of the application for maximum speed & scalability.</li><li>Implementation of security & data protection.</li><li>Design & Implementation of data storage solutions.</li><li>Skills & Qualification.</li><li>More than 2 years of experience in back-end programming language. Should have the knowledge of one or more of Python, NodeJS.</li><li>Creating database schemas that represent and support business processes.</li><li>Understanding of session management in a distributed server environment.</li><li>Proficient understanding of code versioning tools, such as Git</li><li>Proficient understanding of OWASP security principles.</li><li>Understanding of session management in a distributed server environment Understanding differences between multiple delivery platforms such as mobile vs desktop, and optimizing output to match the specific platform.</li><li>Implementing automated testing platforms and unit tests.</li><li>Basic understanding of front-end technologies and platforms, such as JavaScript, HTML5 & CSS3.</li><li>Good understanding of server-side CSS preprocessors such as LESS and SASS.</li><li>User authentication and authorization between multiple systems, servers & environments.</li><li>Integration of multiple data sources and databases into one system.</li></ul>   \",\n            \"isactive\": 1,\n            \"createdon\": \"2021-02-22T12:19:52.000Z\",\n            \"modifiedon\": \"2021-02-22T12:19:52.000Z\"\n        },\n        {\n            \"oid\": 114,\n            \"name\": \"ReactJS Developer \",\n            \"eligibility\": \"BTech/MTech/MCA/MSCIT\",\n            \"experience\": \"2-4 Yrs Of Experience in ReactJS Developer\",\n            \"jobdescription\": \"We are looking for a great JavaScript developer who is proficient with ReactJS. Your primary focus will be on developing user interface components and implementing them following well-known ReactJS workflows (such as Flux or Redux). You will ensure that these components and the overall application are robust and easy to maintain. <br/><br/><b>Responsibilities:</b><ul><li>Developing new user-facing features using ReactJS.</li><li>Building reusable components and front-end libraries for future use.</li><li>Translating designs and wireframes into high quality code.</li><li>Optimizing components for maximum performance across a vast array of web-capable devices and browsers.</li></ul><br/><b>Skills: </b><ul><li>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model.</li><li>Thorough understanding of ReactJS & its core principles.</li><li>Experience with popular ReactJS workflows (such as Flux or Redux).</li><li>Familiarity with newer specifications of EcmaScript.</li><li>Experience with data structure libraries (e.g., ImmutableJS).</li><li>Knowledge of isomorphic React is a plus.</li><li>Familiarity with RESTful APIs.</li></ul>\",\n            \"isactive\": 1,\n            \"createdon\": \"2021-02-22T12:42:35.000Z\",\n            \"modifiedon\": \"2021-02-22T12:42:35.000Z\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "path_oid",
+							"value": "111",
+							"type": "default"
+						},
+						{
+							"key": "path_aid",
+							"value": "685",
+							"type": "default"
+						},
+						{
+							"key": "upl",
+							"type": "file",
+							"src": "/C:/Users/Administrator/Downloads/Fleet Management System (1).pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"upload"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "upload-example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "path_oid",
+									"value": "111",
+									"type": "default"
+								},
+								{
+									"key": "path_aid",
+									"value": "685",
+									"type": "default"
+								},
+								{
+									"key": "upl",
+									"type": "file",
+									"src": "/C:/Users/Administrator/Downloads/Fleet Management System (1).pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/upload",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"upload"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "20"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"14-Y53wuE/mmbSikKcT/WualL1N65U\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Jan 2022 06:31:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\"status\":\"success\"}"
+				}
+			]
+		}
+	]
+}
